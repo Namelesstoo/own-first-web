@@ -1,0 +1,35 @@
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: -20%;
+    background: #111;
+    width: 100%;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer-content h3{
+    font-size: 1rem;
+    font-weight: 50;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+@media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }

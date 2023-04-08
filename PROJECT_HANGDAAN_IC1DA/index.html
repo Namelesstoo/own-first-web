@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+    <title>Project Website 2.0</title>
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/35e818ed27.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+       
+        <div id="home" class="container">
+            <div class="box" style="--clr:#ff7300;">
+                <div class="content">
+                    <div class="icon"><ion-icon name="cube-outline"></ion-icon></div>
+                        <div class="text"> 
+                            <h3>Behevioral Diagram</h3> 
+                            <p> A behavior diagram is intended to provide clarity. </p>
+                            <a href="beh.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#fd00be;">
+                <div class="content">
+                    <div class="icon"><ion-icon name="triangle-outline"></ion-icon></div>
+                        <div class="text"> 
+                            <h3>Structural Diagram</h3> 
+                            <p>Structures that make up a system such as a database or an application.</p>
+                            <a href="struck.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <header>
+                <h2 class="logo">namelesstoo</h2>
+                <nav>
+                    <a href="#home" class="active">Home</a>
+                    <a href="#FAQ">FAQ</a>
+                    <a href="https://www.arknights.global/">Arknigths</a>
+                    <a href="aboutme.html">About Me</a>
+                </nav>
+            </header>
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script>
+    	$(document).ready(function(){
+    		$(window).on('scroll', function(){
+    			if ($(window).scrollTop()) {
+                    $("header").addClass('bgc');
+    			}else{
+                    $("header").removeClass('bgc');
+    			}
+    		});
+    	});
+    </script>
+    <div class="arknigths">
+        <div class="message">
+        <h3>Meet my Operators.</h3>
+        <p>Operators have many functionalities, ranging from directly fighting the enemy either with melee or long-ranged weaponry, using Originium Arts to attack the enemy with destructive magic, healing other Operators, or providing some form of offensive or defensive support.</p>
+       </div>
+    </div>
+
+    <div class="gallery">
+        <div class="img-box"><h3>Lappland</h3></div>
+        <div class="img-box"><h3>Texas</h3></div>
+        <div class="img-box"><h3>W</h3></div>
+        <div class="img-box"><h3>Specter</h3></div>
+        <div class="img-box"><h3>Schwarz</h3></div>
+    </div>
+
+    <section>
+        <h1 class="title">FAQ</h1>
+        <div id="FAQ" class="questions-container">
+           <div class="question">
+            <button>
+                <span>How long did you create this website?</span>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <p>It took me 4 days making this project.</p>
+           </div>
+
+           <div class="question">
+            <button>
+                <span>Did you have fun making this?</span>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <p>No.</p>
+           </div>
+
+           <div class="question">
+            <button>
+                <span>Did you do all this by yourself?</span>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <p>Yes and No, I did ask for help but most of it are my own sweat and blood.</p>
+           </div>
+
+           <div class="question">
+            <button>
+                <span>Who are these characters?</span>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <p>Dont mind them i just added them for no reason.
+                (I just feel like it)
+            </p>
+           </div>
+        </div>
+    </section>
+   
+
+    
+   
+
+
+            <footer>
+                <div class="footer-content">
+                 <h3>Copyright © 2023 Hangdaan Ashley. All rights reserved</h3>
+                 <p>I hope your doing great Doctor.</p>
+                </div>
+            </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+    <script src="main.js"></script>
+</html>
